@@ -10,7 +10,7 @@ import './Hero.css';
 const Hero = () => {
 	return (
 		<section className="flex flex-row align-middle h-[80vh] relative overflow-hidden bg-gray-100 px-6">
-			<div class="bg-darkest top-28 right-[-20%] absolute -z-2 h-[100%] w-[50vw] rounded-[6rem] -rotate-[25deg] hidden lg:block" />
+			<div className="bg-darkest top-28 right-[-20%] absolute -z-2 h-[100%] w-[50vw] rounded-[6rem] -rotate-[25deg] hidden lg:block" />
 			<div className="flex flex-row justify-start w-full mx-auto max-w-4xl">
 				<div
 					id="container-hero"
