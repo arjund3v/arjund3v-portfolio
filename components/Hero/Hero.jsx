@@ -9,13 +9,13 @@ import './Hero.css';
 
 const Hero = () => {
 	return (
-		<section className="flex flex-row align-middle h-[80vh] relative overflow-hidden bg-gray-100 px-6">
+		<section
+			id="home"
+			className="flex flex-row align-middle h-[80vh] relative overflow-hidden bg-gray-100 px-6"
+		>
 			<div className="bg-darkest top-28 right-[-20%] absolute -z-2 h-[100%] w-[50vw] rounded-[6rem] -rotate-[25deg] hidden lg:block" />
 			<div className="flex flex-row justify-start w-full mx-auto max-w-4xl">
-				<div
-					id="container-hero"
-					className="flex flex-col justify-center align-middle gap-4 "
-				>
+				<div className="flex flex-col justify-center align-middle gap-4 ">
 					<h1 className="text-6xl noto-extra darkest">Hello, I'm Arjun.</h1>
 					<h2 className="text-xl noto darkest">
 						A 19 Year Old{' '}
