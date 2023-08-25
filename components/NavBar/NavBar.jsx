@@ -24,10 +24,10 @@ const NavBar = () => {
 						<nav>
 							<ul className="hidden md:flex flex-row gap-5">
 								<li>
-									<a href="#">Home</a>
+									<a href="#home">Home</a>
 								</li>
 								<li>
-									<a href="#">Details</a>
+									<a href="#details">Details</a>
 								</li>
 								<li>
 									<a href="#">Projects</a>
