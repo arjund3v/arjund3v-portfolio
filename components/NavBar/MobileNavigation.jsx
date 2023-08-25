@@ -28,6 +28,10 @@ const MobileNavigation = () => {
 				duration: 0.5,
 			},
 		},
+		link: {
+			hidden: { opacity: 0, y: -10 },
+			visible: { opacity: 1, y: 0, transition: { duration: 0.3 } },
+		},
 	};
 
 	const linkClick = () => {
@@ -51,31 +55,31 @@ const MobileNavigation = () => {
 						className={`${isOpen ? 'pt-24 pl-8 gap-10 fixed top-16 left-0 w-full h-full bg-white z-50 flex flex-col justify-start' : 'hidden'}`}
 					>
 						<li>
-							<a
+							<motion.a
 								href="#home"
 								onClick={linkClick}
 								className="text-3xl noto-bold"
 							>
 								Home
-							</a>
+							</motion.a>
 						</li>
 						<li>
-							<a
+							<motion.a
 								href="#details"
 								onClick={linkClick}
 								className="text-3xl noto-bold"
 							>
 								Details
-							</a>
+							</motion.a>
 						</li>
 						<li>
-							<a
+							<motion.a
 								href="#"
 								onClick={linkClick}
 								className="text-3xl noto-bold"
 							>
 								Projects
-							</a>
+							</motion.a>
 						</li>
 						<li>
 							<a
@@ -87,13 +91,13 @@ const MobileNavigation = () => {
 							</a>
 						</li>
 						<li>
-							<a
+							<motion.a
 								href="#"
 								onClick={linkClick}
 								className="text-3xl noto-bold"
 							>
 								Contact
-							</a>
+							</motion.a>
 						</li>
 					</motion.ul>
 				)}

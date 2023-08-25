@@ -8,6 +8,13 @@
 	box-sizing: border-box;
 }
 
+/* Smooth scrolling */
+@layer base {
+	html {
+		scroll-behavior: smooth;
+	}
+}
+
 html,
 body,
 main,
