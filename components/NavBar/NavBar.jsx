@@ -8,7 +8,7 @@ import './NavBar.css';
 
 const NavBar = () => {
 	return (
-		<header className="parent-container h-16 relative">
+		<header className="parent-container fixed top-0 h-16 w-full z-50 navbar-opacity">
 			<div className="h-full w-full max-w-4xl flex justify-between items-center mx-auto">
 				<h3 className="text-xl font-bold md:text-2xl">
 					<a href="#home">Arjun.dev</a>

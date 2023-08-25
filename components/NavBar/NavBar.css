@@ -1,6 +1,3 @@
-/* Regular Nav */
-
-/* Mobile Nav */
-.MobileNavigation {
-	display: none;
+.navbar-opacity {
+	background-color: rgba(255, 255, 255, 0.95);
 }

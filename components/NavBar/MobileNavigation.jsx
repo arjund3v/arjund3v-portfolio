@@ -1,10 +1,103 @@
-import React from 'react';
-import NavLinks from './Navlinks';
+'use client';
+import React, { useState } from 'react';
+import { Squash as Hamburger } from 'hamburger-react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const MobileNavigation = () => {
+	const [isOpen, setOpen] = useState(false);
+
+	const dropDownVariants = {
+		hidden: {
+			opacity: 0,
+			y: '-100%',
+		},
+		visible: {
+			opacity: 1,
+			y: '0%',
+			transition: {
+				type: 'spring',
+				damping: 12,
+				stiffness: 120,
+			},
+		},
+		exit: {
+			opacity: 0,
+			y: '-100%',
+			transition: {
+				ease: 'easeOut', // Use easeOut for smoother exit
+				duration: 0.5,
+			},
+		},
+	};
+
+	const linkClick = () => {
+		setOpen(false);
+	};
+
 	return (
-		<nav className="MobileNavigation">
-			<NavLinks />
+		<nav className="md:hidden">
+			{/* This is for the hamburger icon */}
+			<Hamburger
+				toggled={isOpen}
+				toggle={setOpen}
+			/>
+			<AnimatePresence>
+				{isOpen && (
+					<motion.ul
+						variants={dropDownVariants}
+						initial="hidden"
+						animate={isOpen ? 'visible' : 'hidden'}
+						exit="exit"
+						className={`${isOpen ? 'pt-24 pl-8 gap-10 fixed top-16 left-0 w-full h-full bg-white z-50 flex flex-col justify-start' : 'hidden'}`}
+					>
+						<li>
+							<a
+								href="#home"
+								onClick={linkClick}
+								className="text-3xl noto-bold"
+							>
+								Home
+							</a>
+						</li>
+						<li>
+							<a
+								href="#details"
+								onClick={linkClick}
+								className="text-3xl noto-bold"
+							>
+								Details
+							</a>
+						</li>
+						<li>
+							<a
+								href="#"
+								onClick={linkClick}
+								className="text-3xl noto-bold"
+							>
+								Projects
+							</a>
+						</li>
+						<li>
+							<a
+								href="#"
+								onClick={linkClick}
+								className="text-3xl noto-bold"
+							>
+								Experience
+							</a>
+						</li>
+						<li>
+							<a
+								href="#"
+								onClick={linkClick}
+								className="text-3xl noto-bold"
+							>
+								Contact
+							</a>
+						</li>
+					</motion.ul>
+				)}
+			</AnimatePresence>
 		</nav>
 	);
 };
