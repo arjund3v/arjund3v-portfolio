@@ -1,3 +1,30 @@
 .details {
-	padding: 15rem 1.5rem;
+	padding: 12rem 1.5rem;
+}
+
+.avatar {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	background-image: url('./avatar.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.swe {
+	width: 200px;
+	height: 200px;
+	border-radius: 10%;
+	overflow: hidden;
+	background-image: url('./SWE.jpeg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.stack-icon {
+	border-radius: 50%;
+	background-color: rgba(252, 248, 248, 0.872);
 }
