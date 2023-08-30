@@ -73,17 +73,8 @@ const MobileNavigation = () => {
 							</motion.a>
 						</li>
 						<li>
-							<motion.a
-								href="#experience"
-								onClick={linkClick}
-								className="text-3xl noto-bold"
-							>
-								Experience
-							</motion.a>
-						</li>
-						<li>
 							<a
-								href="#"
+								href="#projects"
 								onClick={linkClick}
 								className="text-3xl noto-bold"
 							>
@@ -92,7 +83,7 @@ const MobileNavigation = () => {
 						</li>
 						<li>
 							<motion.a
-								href="#"
+								href="#contact"
 								onClick={linkClick}
 								className="text-3xl noto-bold"
 							>

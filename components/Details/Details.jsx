@@ -54,8 +54,8 @@ const Details = () => {
 				<div className="avatar" />
 				<div className="flex flex-col gap-5 justify-center align-middle items-center text-center md:justify-start md:items-start md:align-top md:text-start md:w-1/2 md:gap-3 lg:w-1/2 lg:gap-3 xl:w-1/3">
 					<h3 className="noto-extra text-darkest text-lg">DETAILS</h3>
-					<h2 className="noto-extra text-2xl">A dedicated Junior Developer based in Toronto, ON 📍</h2>
-					<p className="noto text-gray-500 text-sm">
+					<h2 className="noto-extra text-3xl">A dedicated Junior Developer based in Toronto, ON 📍</h2>
+					<p className="noto text-gray-500 text-lg">
 						I am a 19-year-old student with a passion for web development. I specialize in front-end development and possess a solid understanding of basic back-end concepts. My enthusiasm extends to
 						the realm of cloud technologies, particularly AWS, where I am eager to explore and leverage its capabilities. Additionally, I have a keen interest in data engineering, driven by a desire
 						to understand how data flows and transforms within modern systems. My goal is to continue honing my skills in both web development and cloud technologies while pursuing opportunities to
@@ -76,8 +76,8 @@ const Details = () => {
 				<div className="swe" />
 				<div className="flex flex-col gap-5 justify-center align-middle items-center text-center md:justify-start md:items-start md:align-top md:text-start md:w-1/2 md:gap-3 lg:w-1/2 lg:gap-3 xl:w-1/3">
 					<h3 className="noto-extra text-darkest text-lg">TECH STACK</h3>
-					<h2 className="noto-extra text-2xl">My problem solving toolset 🛠️</h2>
-					<div className="flex flex-wrap gap-5 justify-evenly py-5">
+					<h2 className="noto-extra text-3xl">My problem solving toolset 🛠️</h2>
+					<div className="flex flex-wrap gap-5 justify-evenly py-5 w-[90%]">
 						<ReactOriginal
 							size={55}
 							className="stack-icon shadow-xl p-1"

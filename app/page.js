@@ -2,7 +2,7 @@ import Image from 'next/image';
 import NavBar from '@/components/NavBar/NavBar';
 import Hero from '@/components/Hero/Hero';
 import Details from '@/components/Details/Details';
-import Experience from '@/components/Experience/Experience';
+import Projects from '@/components/Projects/Projects';
 
 export default function Home() {
 	return (
@@ -10,7 +10,7 @@ export default function Home() {
 			<NavBar />
 			<Hero />
 			<Details />
-			<Experience />
+			<Projects />
 		</main>
 	);
 }
