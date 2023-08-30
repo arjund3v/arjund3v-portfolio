@@ -11,10 +11,10 @@ const Navigation = () => {
 					<a href="#details">Details</a>
 				</li>
 				<li>
-					<a href="#">Projects</a>
+					<a href="#experience">Experience</a>
 				</li>
 				<li>
-					<a href="#">Experience</a>
+					<a href="#">Projects</a>
 				</li>
 				<li>
 					<a href="#">Contact</a>

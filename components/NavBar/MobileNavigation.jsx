@@ -74,11 +74,11 @@ const MobileNavigation = () => {
 						</li>
 						<li>
 							<motion.a
-								href="#"
+								href="#experience"
 								onClick={linkClick}
 								className="text-3xl noto-bold"
 							>
-								Projects
+								Experience
 							</motion.a>
 						</li>
 						<li>
@@ -87,7 +87,7 @@ const MobileNavigation = () => {
 								onClick={linkClick}
 								className="text-3xl noto-bold"
 							>
-								Experience
+								Projects
 							</a>
 						</li>
 						<li>
