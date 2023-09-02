@@ -52,7 +52,7 @@ const Details = () => {
 				className="flex flex-col justify-center align-middle items-center text-center gap-3 md:flex-row md:gap-5 lg:gap-10"
 			>
 				<div className="avatar" />
-				<div className="flex flex-col gap-5 justify-center align-middle items-center text-center md:justify-start md:items-start md:align-top md:text-start md:w-1/2 md:gap-3 lg:w-1/2 lg:gap-3 xl:w-1/3">
+				<div className="flex flex-col gap-5 justify-center align-middle items-center text-center md:justify-start md:items-start md:align-top md:text-start md:w-1/2 md:gap-3 lg:w-8/12 lg:gap-3 xl:w-1/2">
 					<h3 className="noto-extra text-darkest text-lg">DETAILS</h3>
 					<h2 className="noto-extra text-3xl">A dedicated Junior Developer based in Toronto, ON 📍</h2>
 					<p className="noto text-gray-500 text-lg">
@@ -74,7 +74,7 @@ const Details = () => {
 				className="flex flex-col justify-center align-middle items-center text-center gap-3 md:flex-row md:items-start md:gap-5 lg:gap-10"
 			>
 				<div className="swe" />
-				<div className="flex flex-col gap-5 justify-center align-middle items-center text-center md:justify-start md:items-start md:align-top md:text-start md:w-1/2 md:gap-3 lg:w-1/2 lg:gap-3 xl:w-1/3">
+				<div className="flex flex-col gap-5 justify-center align-middle items-center text-center md:justify-start md:items-start md:align-top md:text-start md:w-1/2 md:gap-3 lg:w-8/12 lg:gap-3 xl:w-1/2">
 					<h3 className="noto-extra text-darkest text-lg">TECH STACK</h3>
 					<h2 className="noto-extra text-3xl">My problem solving toolset 🛠️</h2>
 					<div className="flex flex-wrap gap-5 justify-evenly py-5 w-[90%]">
