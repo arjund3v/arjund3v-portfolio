@@ -61,7 +61,7 @@ const Projects = () => {
 				type: 'spring',
 				damping: 15,
 				stiffness: 230,
-				delay: 0.05 * index,
+				delay: 0.08 * index,
 			},
 		}),
 	};
