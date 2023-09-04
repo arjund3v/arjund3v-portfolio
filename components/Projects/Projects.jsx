@@ -15,7 +15,18 @@ const Projects = () => {
 			id="projects"
 		>
 			<div class="flex flex-col justify-center align-middle items-center text-center gap-10">
-				<h2 className="text-5xl noto-extra">Projects</h2>
+				<div>
+					<h3 className="noto-extra text-darkest text-lg">PROJECTS</h3>
+					<h2 className="text-5xl noto-extra">
+						Many More Can Be Found On My{' '}
+						<a
+							className="text-darkest"
+							href="https://github.com/arjund3v/"
+						>
+							GitHub!
+						</a>
+					</h2>
+				</div>
 				<div className="flex flex-col flex-wrap gap-5 justify-evenly align-baseline items-end md:flex-row md:w-4/5">
 					<div className="card">
 						<p className="card-title">Study.Me</p>
