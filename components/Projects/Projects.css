@@ -1,3 +1,145 @@
 .projects {
 	padding: 12rem 1.5rem;
 }
+
+.card-title {
+	color: #262626;
+	font-size: 1.5em;
+	line-height: normal;
+	font-weight: 700;
+	margin-bottom: 0.5em;
+	transition: all 0.5s ease-out;
+}
+
+.small-desc {
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1.5em;
+	color: #452c2c;
+	transition: all 0.5s ease-out;
+}
+
+.small-desc {
+	font-size: 1em;
+}
+
+.go-corner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	width: 2em;
+	height: 2em;
+	overflow: hidden;
+	top: 0;
+	right: 0;
+	background: linear-gradient(135deg, #6293c8, #384c6c);
+	border-radius: 0 4px 0 32px;
+}
+
+.go-arrow {
+	margin-top: -4px;
+	margin-right: -4px;
+	color: white;
+	font-family: courier, sans;
+}
+
+.card {
+	display: block;
+	position: relative;
+	max-width: 300px;
+	height: auto;
+	background-color: #f2f8f9;
+	border-radius: 10px;
+	padding: 2em 1.2em;
+	margin: 12px;
+	text-decoration: none;
+	z-index: 0;
+	overflow: hidden;
+	background: linear-gradient(to bottom, #c3e6ec, #a7d1d9);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.card:before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	top: -16px;
+	right: -16px;
+	background: linear-gradient(135deg, #364a60, #384c6c);
+	height: 35px;
+	width: 32px;
+	border-radius: 32px;
+	transform: scale(1);
+	transform-origin: 50% 50%;
+	transition: transform 0.35s ease-out;
+}
+
+.card:hover:before {
+	transform: scale(28);
+}
+
+.card:hover .small-desc {
+	transition: all 0.5s ease-out;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.card:hover .card-title {
+	transition: all 0.5s ease-out;
+	color: #ffffff;
+}
+
+.card:hover .icons-container {
+	transition: all 0.5s ease-out;
+	color: #6a9ed6;
+}
+
+.icons-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	transition: all 0.5s ease-out;
+}
+
+.buttons-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: baseline;
+	gap: 2rem;
+	margin-top: 2rem;
+}
+
+.github-button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #6293c8; /* Change to your desired button background color */
+	color: #fff; /* Change to your desired text color */
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+.github-button:hover {
+	background-color: #445d86;
+	transition: all 0.2s ease-in-out;
+}
+
+.live-demo {
+	display: flex;
+	justify-content: baseline;
+	align-items: center;
+	transition: all 0.5s ease-in-out;
+}
+
+.card:hover .live-demo {
+	color: #ffffff;
+	transition: all 0.5s ease-in-out;
+}
