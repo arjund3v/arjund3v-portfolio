@@ -22,7 +22,8 @@ const Projects = () => {
 			transition: {
 				type: 'spring',
 				damping: 15,
-				stiffness: 180,
+				stiffness: 230,
+				delay: 0.2,
 			},
 		},
 	};
