@@ -84,7 +84,7 @@ const Projects = () => {
 				</h2>
 			</div>
 			<div className="flex flex-col justify-center align-middle items-center text-center gap-14">
-				<div className="flex flex-col flex-wrap gap-5 justify-evenly align-baseline items-end md:flex-row md:w-4/5">
+				<div className="flex flex-col flex-wrap gap-5 justify-center align-middle items-center md:flex-row md:w-3/4">
 					{projectData.map((project, index) => (
 						<motion.div
 							className="card"
