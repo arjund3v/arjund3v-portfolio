@@ -26,7 +26,7 @@ const Hero = () => {
 									// Same substring at the start will only be typed out once, initially
 									' Software Developer',
 									1000, // wait 1s before replacing "Mice" with "Hamsters"
-									' UI Designer',
+									' Data Engineer',
 									1000,
 									' Student',
 									1000,
