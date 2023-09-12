@@ -1,0 +1,12 @@
+.contact {
+	padding: 5rem 1.5rem;
+	overflow: hidden;
+}
+
+.icon {
+	transition: all 0.2s ease-in-out;
+}
+.icon:hover {
+	color: #6293c8;
+	transition: all 0.2s ease-in-out;
+}
