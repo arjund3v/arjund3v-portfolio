@@ -6,6 +6,7 @@ import { FaReact, FaPython, FaAws, FaSpotify, FaDatabase, FaNodeJs } from 'react
 import { SiNextdotjs, SiTailwindcss, SiC, SiExpress } from 'react-icons/si';
 import { LuGithub } from 'react-icons/lu';
 import { HiMiniArrowTopRightOnSquare } from 'react-icons/hi2';
+import { RiFileExcel2Fill } from 'react-icons/ri';
 
 import '@/styles/globals.css';
 import './Projects.css';
@@ -19,11 +20,11 @@ const projectData = [
 		liveDemoLink: 'https://study-me.vercel.app/',
 	},
 	{
-		title: 'Spotify ETL Pipeline',
-		description: 'A pipeline created in Python using the Pandas package to extract and load data into an AWS S3 Data Lake for further analysis.',
-		icons: [<FaPython size={35} />, <FaAws size={35} />, <FaSpotify size={35} />],
-		githubLink: 'https://github.com/arjund3v/Spotify-ETL-Pipeline',
-		liveDemoLink: 'https://github.com/arjund3v/Spotify-ETL-Pipeline',
+		title: 'Customer List ETL Pipeline',
+		description: 'A ETL pipeline created to demonstrate the use of data cleaning and ETL processes based off of a real life scenario and excel spreadsheet',
+		icons: [<FaPython size={35} />, <RiFileExcel2Fill size={35} />],
+		githubLink: 'https://github.com/arjund3v/Customer-List-ETL',
+		liveDemoLink: 'https://github.com/arjund3v/Customer-List-ETL',
 	},
 	{
 		title: 'Store API',
