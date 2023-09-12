@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
-import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaLinkedin, FaDownload } from 'react-icons/fa';
 
 import '@/styles/globals.css';
 import './Hero.css';

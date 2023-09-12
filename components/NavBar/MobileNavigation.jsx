@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Squash as Hamburger } from 'hamburger-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { FaDownload } from 'react-icons/fa';
 
 const MobileNavigation = () => {
 	const [isOpen, setOpen] = useState(false);
@@ -89,6 +90,23 @@ const MobileNavigation = () => {
 							>
 								Contact
 							</motion.a>
+						</li>
+						<li>
+							<div className="flex">
+								<a
+									href="/Arjun_Saini_Resume.pdf"
+									download="Arjun_Saini_Resume.pdf"
+									className=" bg-darkest rounded-lg text-white p-2"
+								>
+									<span className="flex flex-row w-auto gap-3 align-middle justify-start items-center">
+										<p>Resume</p>
+										<FaDownload
+											size={13}
+											className="inline-block"
+										/>
+									</span>
+								</a>
+							</div>
 						</li>
 					</motion.ul>
 				)}
