@@ -7,6 +7,7 @@ import { SiNextdotjs, SiTailwindcss, SiC, SiExpress } from 'react-icons/si';
 import { LuGithub } from 'react-icons/lu';
 import { HiMiniArrowTopRightOnSquare } from 'react-icons/hi2';
 import { RiFileExcel2Fill } from 'react-icons/ri';
+import { BiLogoMongodb } from 'react-icons/bi';
 
 import '@/styles/globals.css';
 import './Projects.css';
@@ -29,7 +30,7 @@ const projectData = [
 	{
 		title: 'Store API',
 		description: 'An API created using ExpressJS + NodeJS, which takes a real-world approach and focuses on filtering methods, query parameters, etc.',
-		icons: [<SiExpress size={35} />, <FaNodeJs size={35} />],
+		icons: [<SiExpress size={35} />, <FaNodeJs size={35} />, <BiLogoMongodb size={35} />],
 		githubLink: 'https://github.com/arjund3v/store-api',
 		liveDemoLink: 'https://github.com/arjund3v/store-api',
 	},
