@@ -2,48 +2,88 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-import { FaReact, FaPython, FaAws, FaSpotify, FaDatabase, FaNodeJs } from 'react-icons/fa';
-import { SiNextdotjs, SiTailwindcss, SiC, SiExpress } from 'react-icons/si';
+import {
+	FaReact,
+	FaPython,
+	FaAws,
+	FaSpotify,
+	FaDatabase,
+	FaNodeJs,
+} from 'react-icons/fa';
+import {
+	SiNextdotjs,
+	SiTailwindcss,
+	SiC,
+	SiExpress,
+	SiMongodb,
+} from 'react-icons/si';
 import { LuGithub } from 'react-icons/lu';
 import { HiMiniArrowTopRightOnSquare } from 'react-icons/hi2';
 import { RiFileExcel2Fill } from 'react-icons/ri';
-import { BiLogoMongodb } from 'react-icons/bi';
+import { BiLogoMongodb, BiLogoPostgresql } from 'react-icons/bi';
 
 import '@/styles/globals.css';
 import './Projects.css';
 
 const projectData = [
 	{
+		title: 'Brickable',
+		description:
+			'Brickable is a full stack web application built upon the Express js library, allowing users to browse LEGO sets',
+		icons: [
+			<FaNodeJs size={35} />,
+			<SiExpress size={35} />,
+			<SiTailwindcss size={35} />,
+			<BiLogoMongodb size={35} />,
+			<BiLogoPostgresql size={35} />,
+		],
+		githubLink: 'https://github.com/arjund3v/Brickable',
+		liveDemoLink: 'https://brickable.cyclic.app/',
+	},
+	{
 		title: 'Study.Me',
-		description: 'Study Me is a app powered by the OpenAI api allowing users to submit information and receive study questions.',
-		icons: [<FaReact size={35} />, <SiNextdotjs size={35} />, <SiTailwindcss size={35} />],
+		description:
+			'Study Me is a app powered by the OpenAI api allowing users to submit information and receive study questions.',
+		icons: [
+			<FaReact size={35} />,
+			<SiNextdotjs size={35} />,
+			<SiTailwindcss size={35} />,
+		],
 		githubLink: 'https://github.com/arjund3v/Study-me',
 		liveDemoLink: 'https://study-me.vercel.app/',
 	},
 	{
 		title: 'Customer List ETL Pipeline',
-		description: 'A ETL pipeline created to demonstrate the use of data cleaning and ETL processes based off of a real life scenario and excel spreadsheet',
+		description:
+			'A ETL pipeline created to demonstrate the use of data cleaning and ETL processes based off of a real life scenario and excel spreadsheet',
 		icons: [<FaPython size={35} />, <RiFileExcel2Fill size={35} />],
 		githubLink: 'https://github.com/arjund3v/Customer-List-ETL',
 		liveDemoLink: 'https://github.com/arjund3v/Customer-List-ETL',
 	},
 	{
 		title: 'Store API',
-		description: 'An API created using ExpressJS + NodeJS, which takes a real-world approach and focuses on filtering methods, query parameters, etc.',
-		icons: [<SiExpress size={35} />, <FaNodeJs size={35} />, <BiLogoMongodb size={35} />],
+		description:
+			'An API created using ExpressJS + NodeJS, which takes a real-world approach and focuses on filtering methods, query parameters, etc.',
+		icons: [
+			<SiExpress size={35} />,
+			<FaNodeJs size={35} />,
+			<BiLogoMongodb size={35} />,
+		],
 		githubLink: 'https://github.com/arjund3v/store-api',
 		liveDemoLink: 'https://github.com/arjund3v/store-api',
 	},
 	{
 		title: 'Patient Tracker',
-		description: 'An application created using C for hospital admins to register patients and manage admittance, utilizing a flat file database.',
+		description:
+			'An application created using C for hospital admins to register patients and manage admittance, utilizing a flat file database.',
 		icons: [<SiC size={35} />, <FaDatabase size={35} />],
 		githubLink: 'https://github.com/arjund3v/patient-tracker',
 		liveDemoLink: 'https://github.com/arjund3v/patient-tracker',
 	},
 	{
 		title: 'C Programs Archive',
-		description: 'A repository that contains a collection of mini-games and small CLI programs created using the C programming language.',
+		description:
+			'A repository that contains a collection of mini-games and small CLI programs created using the C programming language.',
 		icons: [<SiC size={35} />, <FaDatabase size={35} />],
 		githubLink: 'https://github.com/arjund3v/C-Programs-Archive',
 		liveDemoLink: 'https://github.com/arjund3v/C-Programs-Archive',
