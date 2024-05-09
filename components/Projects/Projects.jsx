@@ -2,21 +2,8 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-import {
-	FaReact,
-	FaPython,
-	FaAws,
-	FaSpotify,
-	FaDatabase,
-	FaNodeJs,
-} from 'react-icons/fa';
-import {
-	SiNextdotjs,
-	SiTailwindcss,
-	SiC,
-	SiExpress,
-	SiMongodb,
-} from 'react-icons/si';
+import { FaReact, FaPython, FaAws, FaSpotify, FaDatabase, FaNodeJs } from 'react-icons/fa';
+import { SiNextdotjs, SiTailwindcss, SiC, SiExpress, SiMongodb } from 'react-icons/si';
 import { LuGithub } from 'react-icons/lu';
 import { HiMiniArrowTopRightOnSquare } from 'react-icons/hi2';
 import { RiFileExcel2Fill } from 'react-icons/ri';
@@ -26,6 +13,14 @@ import '@/styles/globals.css';
 import './Projects.css';
 
 const projectData = [
+	{
+		title: 'Gem Blitz',
+		description:
+			'Unleash the excitement of a Python board game, where clever strategies clash against an AI opponent powered by advanced data structures!',
+		icons: [<FaPython size={35} />],
+		githubLink: 'https://github.com/arjund3v/Gem-Blitz',
+		liveDemoLink: 'https://github.com/arjund3v/Gem-Blitz',
+	},
 	{
 		title: 'Brickable',
 		description:
@@ -44,11 +39,7 @@ const projectData = [
 		title: 'Study.Me',
 		description:
 			'Study Me is a app powered by the OpenAI api allowing users to submit information and receive study questions.',
-		icons: [
-			<FaReact size={35} />,
-			<SiNextdotjs size={35} />,
-			<SiTailwindcss size={35} />,
-		],
+		icons: [<FaReact size={35} />, <SiNextdotjs size={35} />, <SiTailwindcss size={35} />],
 		githubLink: 'https://github.com/arjund3v/Study-me',
 		liveDemoLink: 'https://study-me.vercel.app/',
 	},
@@ -64,11 +55,7 @@ const projectData = [
 		title: 'Store API',
 		description:
 			'An API created using ExpressJS + NodeJS, which takes a real-world approach and focuses on filtering methods, query parameters, etc.',
-		icons: [
-			<SiExpress size={35} />,
-			<FaNodeJs size={35} />,
-			<BiLogoMongodb size={35} />,
-		],
+		icons: [<SiExpress size={35} />, <FaNodeJs size={35} />, <BiLogoMongodb size={35} />],
 		githubLink: 'https://github.com/arjund3v/store-api',
 		liveDemoLink: 'https://github.com/arjund3v/store-api',
 	},
