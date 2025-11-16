@@ -18,7 +18,7 @@ const Hero = () => {
 				<div className="flex flex-col justify-center align-middle gap-4 ">
 					<h1 className="text-6xl noto-extra darkest">Hello, I'm Arjun.</h1>
 					<h2 className="text-xl noto darkest">
-						A 20 Year Old{' '}
+						A 21 Year Old{' '}
 						<span>
 							<TypeAnimation
 								className="text-xl noto darkest inline-block"
