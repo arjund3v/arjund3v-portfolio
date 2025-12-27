@@ -20,8 +20,7 @@ const Navigation = () => {
 				<li>
 					<div className="flex">
 						<a
-							href="/Arjun_Saini_Resume.pdf"
-							download="Arjun_Saini_Resume.pdf"
+							href="https://docs.google.com/document/d/1uj1V21J5fzKzFUWF19pe8ZVA7IrgrYaW/edit?usp=sharing&ouid=106400211148609699964&rtpof=true&sd=true"
 							className=" bg-darkest rounded-lg text-white p-2"
 						>
 							<span className="flex flex-row w-auto gap-3 align-middle justify-start items-center">
