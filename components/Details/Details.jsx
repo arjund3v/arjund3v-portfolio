@@ -58,14 +58,12 @@ const Details = () => {
 						A dedicated Junior Developer based in Toronto, ON 📍
 					</h2>
 					<p className="noto text-gray-500 text-lg">
-						I am a 20-year-old student with a passion for web development. I specialize in front-end
-						development and possess a solid understanding of basic back-end concepts. My enthusiasm
-						extends to the realm of cloud technologies, particularly AWS, where I am eager to
-						explore and leverage its capabilities. Additionally, I have a keen interest in data
-						engineering, driven by a desire to understand how data flows and transforms within
-						modern systems. My goal is to continue honing my skills in both web development and
-						cloud technologies while pursuing opportunities to delve deeper into the world of data
-						engineering.
+						I am a 21-year-old student with a strong passion for computer networking and
+						infrastructure. I am particularly interested in how networks are designed, secured, and
+						optimized to support modern applications and cloud-based systems. Alongside my
+						networking focus, I have experience in front-end development and a solid understanding
+						of fundamental back-end concepts, which helps me understand how applications interact
+						with underlying network services.
 					</p>
 				</div>
 			</motion.div>

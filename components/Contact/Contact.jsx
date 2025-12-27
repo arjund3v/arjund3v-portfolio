@@ -12,7 +12,7 @@ const Contact = () => {
 		>
 			<div>
 				<h3 className="noto-extra text-darkest text-lg my-2">CONTACT ME</h3>
-				<h2 className="text-5xl noto-extra">I Don't Bite, Contact Me!</h2>
+				<h2 className="text-5xl noto-extra">Shoot me a message!</h2>
 			</div>
 			<div className="flex flex-col justify-center align-middle gap-14 md:flex-row md:gap-32">
 				<div className="flex flex-col gap-3 justify-center items-center md:flex-row md:align-middle">
