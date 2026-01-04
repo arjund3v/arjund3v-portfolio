@@ -1,8 +1,16 @@
 'use client';
 import React from 'react';
-import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
-import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
+import dynamic from 'next/dynamic';
+
+const ResponsiveMasonry = dynamic(
+	() => import('react-responsive-masonry').then((m) => m.ResponsiveMasonry),
+	{ ssr: false }
+);
+
+const Masonry = dynamic(() => import('react-responsive-masonry').then((m) => m.default), {
+	ssr: false,
+});
 
 import '@/styles/globals.css';
 import './Details.css';
