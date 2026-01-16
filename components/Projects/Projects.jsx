@@ -2,8 +2,8 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-import { FaReact, FaPython, FaAws, FaSpotify, FaDatabase, FaNodeJs } from 'react-icons/fa';
-import { SiNextdotjs, SiTailwindcss, SiC, SiExpress, SiMongodb } from 'react-icons/si';
+import { FaReact, FaPython, FaAws, FaDatabase, FaNodeJs, FaJava } from 'react-icons/fa';
+import { SiNextdotjs, SiTailwindcss, SiC, SiExpress, SiMongodb, SiMatrix } from 'react-icons/si';
 import { LuGithub } from 'react-icons/lu';
 import { HiMiniArrowTopRightOnSquare } from 'react-icons/hi2';
 import { RiFileExcel2Fill } from 'react-icons/ri';
@@ -13,6 +13,22 @@ import '@/styles/globals.css';
 import './Projects.css';
 
 const projectData = [
+	{
+		title: 'Inventory Management System (IMS)',
+		description:
+			'A robust Inventory Management System (IMS) built with Java and Java Swing, designed to streamline inventory tracking and management for businesses of all sizes.',
+		icons: [<FaJava size={35} />],
+		githubLink: 'https://github.com/arjund3v/Inventory-Management-System',
+		liveDemoLink: 'https://github.com/arjund3v/Inventory-Management-System',
+	},
+	{
+		title: 'Statistical Wine Exploration',
+		description:
+			'A comprehensive data analysis project utilizing Matlab to explore and visualize wine quality datasets, uncovering insights into factors influencing wine characteristics.',
+		icons: [<SiMatrix size={35} />],
+		githubLink: 'https://github.com/arjund3v/Statistical-Wine-Exploration',
+		liveDemoLink: 'https://github.com/arjund3v/Statistical-Wine-Exploration',
+	},
 	{
 		title: 'Gem Blitz',
 		description:
@@ -24,8 +40,9 @@ const projectData = [
 	{
 		title: 'Brickable',
 		description:
-			'Brickable is a full stack web application built upon the Express js library, allowing users to browse LEGO sets',
+			'Brickable is a full stack web application built upon the Express js library deployed on AWS, allowing users to browse LEGO sets',
 		icons: [
+			<FaAws size={35} />,
 			<FaNodeJs size={35} />,
 			<SiExpress size={35} />,
 			<SiTailwindcss size={35} />,
@@ -33,7 +50,7 @@ const projectData = [
 			<BiLogoPostgresql size={35} />,
 		],
 		githubLink: 'https://github.com/arjund3v/Brickable',
-		liveDemoLink: 'https://brickable.cyclic.app/',
+		liveDemoLink: 'http://brickable.us-east-1.elasticbeanstalk.com/',
 	},
 	{
 		title: 'Study.Me',
