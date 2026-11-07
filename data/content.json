@@ -1,0 +1,160 @@
+{
+  "hero": {
+    "content": "$ cat about.txt\nname:      Arjun Saini\nrole:      Prev. Junior Developer\nlocation:  Toronto, ON\nschool:    York University (Spec. Honours in ITEC)\nwork:      Prev SWE @ Evertz",
+    "file": "bash"
+  },
+  "work": [
+    {
+      "role": "Software Engineer",
+      "company": "Evertz Microsystems",
+      "start": "May 2026",
+      "end": "Aug 2026",
+      "detail": ""
+    },
+    {
+      "role": "Software Developer",
+      "company": "IT Infrastructure Engineer",
+      "start": "Sep 2024",
+      "end": "Dec 2024",
+      "detail": ""
+    },
+    {
+      "role": "Software Developer",
+      "company": "Focus Optometry Centre",
+      "start": "May 2023",
+      "end": "Aug 2023",
+      "detail": ""
+    }
+  ],
+  "education": [
+    {
+      "program": "Specialized Honours in ITEC",
+      "school": "York University",
+      "start": "2024",
+      "end": "",
+      "detail": "3.9 GPA"
+    },
+    {
+      "program": "Computer Science Diploma",
+      "school": "Seneca College",
+      "start": "2022",
+      "end": "2024",
+      "detail": "4.0 GPA / 4.0 GPA"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Java"
+    },
+    {
+      "name": "Python"
+    },
+    {
+      "name": "C"
+    },
+    {
+      "name": "JavaScript"
+    },
+    {
+      "name": "MATLAB"
+    },
+    {
+      "name": "Node.js"
+    },
+    {
+      "name": "Express"
+    },
+    {
+      "name": "AWS"
+    },
+    {
+      "name": "REST APIs"
+    },
+    {
+      "name": "ETL"
+    }
+  ],
+  "projects": [
+    {
+      "title": "inventory_management_system",
+      "tech": "Java · Swing",
+      "desc": "A robust inventory tracking and management system built with Java and Java Swing for businesses of all sizes.",
+      "overview": "",
+      "github": "https://github.com/arjund3v/Inventory-Management-System",
+      "demo": "",
+      "featured": ""
+    },
+    {
+      "title": "brickable",
+      "tech": "Node · Express · AWS",
+      "desc": "Full-stack web app built on Express and deployed on AWS, letting users browse LEGO sets.",
+      "overview": "",
+      "github": "https://github.com/arjund3v/Brickable",
+      "demo": "http://brickable.us-east-1.elasticbeanstalk.com/",
+      "featured": "yes"
+    },
+    {
+      "title": "study_me",
+      "tech": "OpenAI API",
+      "desc": "App powered by the OpenAI API that turns submitted information into study questions.",
+      "overview": "",
+      "github": "https://github.com/arjund3v/Study-me",
+      "demo": "https://study-me.vercel.app/",
+      "featured": "yes"
+    },
+    {
+      "title": "gem_blitz",
+      "tech": "Python",
+      "desc": "A board game where you play against an AI opponent powered by advanced data structures.",
+      "overview": "",
+      "github": "https://github.com/arjund3v/Gem-Blitz",
+      "demo": "",
+      "featured": ""
+    },
+    {
+      "title": "statistical_wine_exploration",
+      "tech": "MATLAB",
+      "desc": "Data analysis and visualization of wine quality datasets to uncover what shapes wine characteristics.",
+      "overview": "",
+      "github": "https://github.com/arjund3v/Statistical-Wine-Exploration",
+      "demo": "",
+      "featured": ""
+    },
+    {
+      "title": "customer_list_etl",
+      "tech": "Python · ETL",
+      "desc": "ETL pipeline demonstrating data cleaning, based on a real-life scenario and spreadsheet.",
+      "overview": "",
+      "github": "https://github.com/arjund3v/Customer-List-ETL",
+      "demo": "",
+      "featured": ""
+    },
+    {
+      "title": "store_api",
+      "tech": "Node · Express",
+      "desc": "API focused on filtering, query parameters and other real-world patterns.",
+      "overview": "",
+      "github": "https://github.com/arjund3v/store-api",
+      "demo": "",
+      "featured": ""
+    },
+    {
+      "title": "patient_tracker",
+      "tech": "C",
+      "desc": "Hospital admin app to register patients and manage admittance with a flat-file database.",
+      "overview": "",
+      "github": "https://github.com/arjund3v/patient-tracker",
+      "demo": "",
+      "featured": ""
+    },
+    {
+      "title": "c_programs_archive",
+      "tech": "C",
+      "desc": "Collection of mini-games and small CLI programs written in C.",
+      "overview": "",
+      "github": "https://github.com/arjund3v/C-Programs-Archive",
+      "demo": "",
+      "featured": ""
+    }
+  ]
+}

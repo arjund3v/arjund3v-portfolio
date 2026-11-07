@@ -1,29 +1,16 @@
 {
-	"name": "arjund3v-portfolio",
-	"version": "0.1.0",
-	"private": true,
-	"packageManager": "bun@1.2.0",
-	"scripts": {
-		"dev": "bunx next dev",
-		"build": "bunx next build",
-		"start": "bunx next start",
-		"lint": "bunx next lint"
-	},
-	"engines": {
-		"node": "20.x"
-	},
-	"dependencies": {
-		"autoprefixer": "10.4.15",
-		"devicons-react": "^1.2.6",
-		"framer-motion": "^10.16.1",
-		"hamburger-react": "^2.5.0",
-		"next": "13.4.13",
-		"postcss": "8.4.27",
-		"react": "18.2.0",
-		"react-dom": "18.2.0",
-		"react-icons": "^4.10.1",
-		"react-responsive-masonry": "^2.7.1",
-		"react-type-animation": "^3.1.0",
-		"tailwindcss": "3.3.3"
-	}
+  "name": "arjun-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^16.4.5",
+    "pg": "^8.23.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
 }
